@@ -1,6 +1,11 @@
-* {
-    color: red;
+html, body{
+    background-color: unset;
 }
+
+body{
+    font-family: Garamond, Georgia, "Times New Roman", serif;
+}
+
 
 /* --- KIOSK WELCOME PAGE --- */
 /* Client logo */
@@ -99,6 +104,9 @@ div#BankSelect > p + div.row div#bankaccount-div button.bank-select-label > span
 /* --- BANK SELECT - DESKTOP --- */
 /* Bank selection button */
 div#BankSelect > div.hidden-phone > div.row > div.span2 > a[ng-click^="chooseBank"] {
+    background: white;
+    border: 2px solid #333333;
+    box-shadow: none;
 }
 /* Bank selection logo */
 div#BankSelect > div.hidden-phone > div.row > div.span2 > a[ng-click^="chooseBank"] > img {
@@ -109,6 +117,10 @@ div#BankSelect div.visible-phone h2 {
 }
 /* Bank selection button */
 div#BankSelect > p.lead + div.row div.visible-phone > a[ng-click^="chooseBank"] {
+    background: white;
+    padding: 1em 2em;
+    border: 2px solid #333333;
+    box-shadow: none;
 }
 /* Bank selection logo */
 div#BankSelect > p.lead + div.row div.visible-phone > a[ng-click^="chooseBank"] > img {

@@ -9,8 +9,8 @@ $(document).ready(function() {
         enableDynamicHeight: true,
         params: {
             appRef: '<your unique app reference>', // Set this value to a unique reference for the application
-            uniqueAppRef: true // indicates that the appRef provided is unique
-            cssOverride: "styles/flow-override.css"
+            uniqueAppRef: true, // indicates that the appRef provided is unique
+            cssOverride: "tessamarylaura.github.io/cs-greenfinances/styles/flow-override.css"
         },
         callback: function(response, data) {
             switch (response) {
