@@ -1,0 +1,214 @@
+* {
+    color: red;
+}
+
+/* --- KIOSK WELCOME PAGE --- */
+/* Client logo */
+#ApplicationPage div#WelcomePage img {
+}
+/* Welcome heading */
+#ApplicationPage div#WelcomePage div.jumbotron > h1 {
+}
+/* Welcome copy */
+#ApplicationPage div#WelcomePage div.jumbotron > p.lead {
+}
+/* Start button */
+#ApplicationPage div#WelcomePage div.jumbotron > a#startapplication-btn {
+}
+/* Go mobile link */
+#ApplicationPage div#WelcomePage div.jumbotron > div.hidden-phone a#mobilelink {
+}
+/* Go mobile QR code */
+#ApplicationPage div#WelcomePage div.jumbotron > div.hidden-phone div#qrcode > img {
+}
+/* Go mobile QR code copy */
+#ApplicationPage div#WelcomePage div.jumbotron > div.hidden-phone div#qrcode {
+}
+/* --- NAV BAR --- */
+/* Statement Collection heading */
+#ApplicationPage div.masthead h3.muted {
+}
+/* Progress stepper */
+#ApplicationPage div.masthead div.tabs.pull-right {
+}
+/* Progress stepper active div*/
+#ApplicationPage div.masthead div.tab.ng-scope.active {
+}
+/* Progress stepper inactive divs*/
+#ApplicationPage div.masthead div.tab.ng-scope:not(.active) {
+}
+/* Progress stepper text */
+#ApplicationPage div.masthead div.tabs.pull-right span.text {
+}
+/* Progress stepper dash */
+#ApplicationPage div.masthead div.tabs.pull-right span.dash {
+}
+/* --- START --- */
+/* --- START - QUESTION --- */
+/* Internet Banking heading */
+div#Q-InternetBanking h1 {
+}
+/* Internet Banking yes button */
+div#Q-InternetBanking div.page-header + div > a[ng-click^=yes] {
+}
+/* Internet Banking no button */
+div#Q-InternetBanking div.page-header + div > a[ng-click^=no] {
+}
+/* --- START - REQUIRES INTERNET BANKING --- */
+/* Requires Internet Banking heading */
+div#RequireOnlineBanking h1 {
+}
+/* Requires Internet Banking copy */
+div#RequireOnlineBanking p.lead {
+}
+/* Requires Internet Banking options */
+div#RequireOnlineBanking blockquote {
+}
+/* Requires Internet Banking return button */
+div#RequireOnlineBanking a.btn {
+}
+/* --- START - APP REF --- */
+/* Start heading */
+#ApplicationPage div#Surname h2 {
+}
+/* Surname input */
+#ApplicationPage div#Surname > div.surname-container > div.surname-margin > input {
+}
+/* Surname input placeholder text */
+#ApplicationPage div#Surname > div.surname-container > div.surname-margin > input::placeholder {
+}
+/* Continue button */
+#ApplicationPage div#Surname > div.surname-container > button {
+}
+/* --- BANK SELECT --- */
+/* Bank Select heading */
+div#BankSelect h2 {
+}
+/* Bank selection input search icon */
+div#BankSelect > p + div.row div#bankaccount-div > div.input-append > span.bank-select-label > i {
+}
+/* Bank selection input */
+div#BankSelect > p + div.row div#bankaccount-div input#bankaccount {
+}
+/* Bank selection dropdown button */
+div#BankSelect > p + div.row div#bankaccount-div button.bank-select-label {
+}
+/* Bank selection button icon */
+div#BankSelect > p + div.row div#bankaccount-div button.bank-select-label > span {
+}
+/* --- BANK SELECT - DESKTOP --- */
+/* Bank selection button */
+div#BankSelect > div.hidden-phone > div.row > div.span2 > a[ng-click^="chooseBank"] {
+}
+/* Bank selection logo */
+div#BankSelect > div.hidden-phone > div.row > div.span2 > a[ng-click^="chooseBank"] > img {
+}
+/* --- BANK SELECT - MOBILE --- */
+/* Quick Select heading */
+div#BankSelect div.visible-phone h2 {
+}
+/* Bank selection button */
+div#BankSelect > p.lead + div.row div.visible-phone > a[ng-click^="chooseBank"] {
+}
+/* Bank selection logo */
+div#BankSelect > p.lead + div.row div.visible-phone > a[ng-click^="chooseBank"] > img {
+}
+/* --- CREDENTIALS --- */
+/* --- Credentials heading --- */
+div#BankCredentials h2 {
+}
+/* --- Bank name --- */
+div#BankCredentials div#bankdetails > div#bankname {
+}
+/* --- Associated banks --- */
+div#BankCredentials div#bankdetails > div#associated-bank-select {
+}
+/* --- Bank login form input labels --- */
+div#BankCredentials div#bankdetails > form#bankform > label {
+}
+/* --- Bank login form inputs --- */
+div#BankCredentials div#bankdetails > form#bankform > input {
+}
+/* --- Bank login form selects --- */
+div#BankCredentials div#bankdetails > form#bankform > select {
+}
+/* --- Bank login form credentials prompt --- */
+div#BankCredentials div#bankdetails > form#bankform > div.alert.help-warning {
+}
+/* --- T&Cs --- */
+/* --- T&Cs heading --- */
+div#Terms h2 {
+}
+/* --- T&Cs content --- */
+div#Terms > div#acceptlicence {
+}
+/* --- T&Cs agree button --- */
+div#Terms > div#accept-terms > button[ng-click^="agree"] {
+}
+/* --- T&Cs decline button --- */
+div#Terms > div#accept-terms > button[ng-click^="decline"] {
+}
+/* --- SUPPORTING DOCUMENTS --- */
+/* --- SUPPORTING DOCUMENTS - QUESTION --- */
+/* --- Supporting Docs heading --- */
+div#Q-Benefits h1 {
+}
+/* --- Supporting Docs copy --- */
+div#Q-Benefits div + p.lead {
+}
+/* --- Supporting Docs yes button --- */
+div#Q-Benefits div.clearfix > button[ng-click^=yes] {
+}
+/* --- Supporting Docs no button --- */
+div#Q-Benefits div.clearfix > button[ng-click^=no] {
+}
+/* --- SUPPORTING DOCUMENTS - LOGIN FORM --- */
+/* --- Supporting Docs heading --- */
+div#centrelinkLogin h1 {
+}
+/* --- Supporting Docs intro text --- */
+div#centrelinkLogin p.lead {
+}
+/* --- Supporting Docs error message --- */
+div#centrelinkLogin p#centrelinkLoginError {
+}
+/* --- Supporting Docs login form input labels --- */
+div#centrelinkLogin > div > form#centrelink label {
+}
+/* --- Supporting Docs login form inputs --- */
+div#centrelinkLogin > div > form#centrelink input {
+}
+/* --- Supporting Docs login form selects --- */
+div#centrelinkLogin > div > form#centrelink select {
+}
+/* --- Supporting Docs login form prompt --- */
+div#centrelinkLogin p.cs_type_prompt {
+}
+/* --- Supporting Docs login form alert --- */
+div#centrelinkLogin p.hideableLoginMessage {
+}
+/* --- Supporting Docs login form skip button --- */
+div#centrelinkLogin button#skipCentreLinkButton {
+}
+/* --- Supporting Docs login form submit button --- */
+div#centrelinkLogin > div > div.clearfix > button#submitCtrLink {
+}
+/* --- FINISH --- */
+/* --- Finish heading --- */
+div#LoginStatus h1 {
+}
+/* --- Finish login success status --- */
+div#LoginStatus > div#BankLoginResult span.success {
+}
+/* --- Finish login failure status --- */
+div#LoginStatus > div#BankLoginResult span.failure {
+}
+/* --- Finish bank try again button --- */
+div#LoginStatus > div#BankLoginResult div#pleasewait a.btn-success {
+}
+/* --- Finish supporting docs retry button --- */
+div#LoginStatus > div#BankLoginResult span#CentrelinkResultWrapper button#centrelinkRetryButton {
+}
+/* --- Finish multi-bank add another bank button --- */
+div#LoginStatus > button[ng-show^="multibank"] {
+}
