@@ -19,6 +19,30 @@ header{
     text-align: center;
 }
 
+header p{
+    font-size: 0.9rem;
+}
+
+header hr{
+    margin: 2rem 0 3rem;
+}
+
+header nav ul{
+    margin: 3rem 0 2rem;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
+
 #alert-message{
     margin: 5vh auto 0;
     padding: 2em;
