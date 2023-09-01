@@ -1,0 +1,74 @@
+{
+    "version": 2,
+    "submit_redirect_url": "https://www.google.com",
+    "pages": {
+        "splash": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='font-size: 1.6rem; font-weight: bold; margin-bottom:2rem;'>Welcome to [Company Name]!</h1><p>We are keen to assess your application. Before we can begin, there are a few short steps that we need to complete.</p><p><ol><li><b>Borrower Warning:</b> This is a legal requirement to ensure that you are aware of the risks and wish to proceed.</li><li><b>Additional Details:</b> Collecting any extra details which we require.</li><li><b>Terms and Conditions:</b> You must agree to our Terms and Conditions before we can fund your loan.</li></ol></p>"
+                },
+                {
+                    "type": "submit",
+                    "label": "Continue"
+                }
+            ]
+        },
+        "borrower_warning": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>Step 1 of 2: Borrower Warning</h1><hr style='margin: 1rem 0 3rem;border-width:3px'>{borrower_warning}"
+                },
+                {
+                    "type": "submit",
+                    "label": "OK"
+                }
+            ]
+        },
+        "details": {
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>Step 2 of 2: Additional Details</h1><hr style='margin: 1rem 0 3rem;border-width:3px'><p>We have almost everything we need! There are just a few extra details which we need from you to complete our assessment, along with your acceptance of our Terms and Conditions.</p>"
+                },
+                {
+                    "type": "dynamic_form"
+                },
+                {
+                    "type": "html",
+                    "content": "<h4>Terms and Conditions</h4>"
+                },
+                {
+                    "type": "terms_and_conditions",
+                    "key": "Accepted_Terms_And_Conditions",
+                    "content": "I have read and agree to the terms set out in [Company Name]'s <a href='www.google.com/' target=\"_blank\" tabIndex=\"-1\">Terms and Conditions</a>."
+                },
+                {
+                    "type": "submit",
+                    "label": "Submit"
+                }
+            ]
+        },
+        "refresh_authority": {
+            "enabled": true,
+            "before_elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>Step 3 of 3: Terms and Conditions</h1><hr style='margin: 1rem 0 3rem;border-width:3px'><p>Last bit! We need your acceptance of our Terms and Conditions.</p>"
+                }
+            ]
+        },
+        "exit": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h2 style='line-height: 2.2rem;'>Thank you - we have everything we need!</h2><h4>We will be in touch with you shortly.</h4><p>Please note:<ul><li>We operate inside of the hours 9am - 5pm, Monday to Friday</li><li>We may request a form of ID as part of the application process, so please have it ready. We require your ID to be in the form of a PDF document which you can upload.</li></ul></p>"
+                }
+            ]
+        }
+    }
+  }

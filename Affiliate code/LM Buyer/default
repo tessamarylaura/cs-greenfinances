@@ -1,0 +1,108 @@
+{
+    "version": 2,
+    "submit_redirect_url": "https://www.google.com",
+    "pages": {
+        "splash": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='font-size: 1.6rem; font-weight: bold; margin-bottom:2rem;'>Welcome to [Company Name]!</h1><p>You have been sent to us because according to your application, we may be able to help you get the loan you need.</p><p>We already have some of your details, but we need a little more info before we can help you.</p><div style='max-width: 90%;margin: 3rem auto 1.5rem;font-size: 0.9rem;background: rgba(0,0,0,0.025);padding: 1.5rem 1.5rem 1rem;'><p><b>About us</b></p><p>Here at [Company Name], we pride ourselves on offering nationwide loans with competitive interest rates. We focus on caring for our customers, ensuring that you are supported and informed throughout your lending journey.</p></div>"
+                },
+                {
+                    "type": "submit",
+                    "label": "Next"
+                }
+            ]
+        },
+        "information": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='font-size: 1.6rem; font-weight: bold; margin-bottom:2rem;'>What we need</h1><p>We will need you to complete the following few steps before we can finish processing your application:</p><p></p><ol style='margin-top: 2rem;'><li style='margin-bottom: 1rem;'><b>Terms and Conditions</b><br> You must agree to our Terms and Conditions before we can continue.</li><li style='margin-bottom: 1rem;'><b>Provide any missing information</b><br>We will redirect you to our main application form for you to fill out. Don't worry though - we will pre-fill it with the information we already have so it should be easy work to fill in the gaps!</li><li><b>Provide ID</b><br>We will need a scanned copy of some form of ID that can be uploaded online.</li></ol><p></p>"
+                },
+                {
+                    "type": "submit",
+                    "label": "Let's go"
+                }
+            ]
+        },
+        "borrower_warning": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>Step 1 of 2: Borrower Warning</h1><hr style='margin: 1rem 0 3rem;border-width:3px'>{borrower_warning}"
+                },
+                {
+                    "type": "submit",
+                    "label": "OK"
+                }
+            ]
+        },
+        "details": {
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>Step 2 of 2: Additional Details</h1><hr style='margin: 1rem 0 3rem;border-width:3px'><p>We have almost everything we need! We only require a few extra details from you, along with your acceptance of our Terms and Conditions.</p>"
+                },
+                {
+                    "type": "dynamic_form"
+                },
+                {
+                    "type": "html",
+                    "content": "<h4 style='border-bottom: 1px solid #0000002e; margin-bottom: 1.1rem; padding-bottom: 0.5rem;'>Terms and Conditions</h4>"
+                },
+                {
+                    "type": "terms_and_conditions",
+                    "key": "Accepted_Terms_And_Conditions",
+                    "content": "I have read and agree to the terms set out in [Company Name]'s <a href='www.google.com/' target=\"_blank\" tabIndex=\"-1\">Terms and Conditions</a>."
+                },
+                {
+                    "type": "submit",
+                    "label": "Submit"
+                }
+            ]
+        },
+        "refresh_authority": {
+            "enabled": true,
+            "before_elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>Step 2 of 2: Terms and Conditions</h1><hr style='margin: 1rem 0 3rem;border-width:3px'><p>Last bit! We need your acceptance of our Terms and Conditions.</p>"
+                }
+            ]
+        },
+        "exit": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h2 style='line-height: 2.2rem;'>Thank you - we have everything we need!</h2><h4>We will be in touch with you shortly.</h4><p>Please note:<ul><li>We operate inside the hours 9 am to 5 pm, Monday to Friday.</li><li>We may request a form of ID as part of the application process, so please have it ready. We require your ID to be in the form of a PDF document which you can upload.</li></ul></p>"
+                }
+            ]
+        }
+    }
+  }
+
+
+
+
+
+
+
+  
+        "exit": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='font-size: 1.6rem; font-weight: bold; margin-bottom:2rem;'>What's involved</h1><p>We will need you to complete the following quick steps before we can continue:</p><p><ol><li><b>Borrower Warning:</b> This is a legal requirement to ensure that you are aware of the risks and wish to proceed.</li><li><b>Additional Details:</b> Collecting any extra details which we require.</li><li><b>Terms and Conditions:</b> You must agree to our Terms and Conditions before we can fund your loan.</li></ol></p>"
+                },
+                {
+                    "type": "submit",
+                    "label": "Let's go"
+                }
+            ]
+        }

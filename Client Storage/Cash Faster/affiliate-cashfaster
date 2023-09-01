@@ -1,0 +1,53 @@
+{
+    "version": 2,
+    "auto_submit_on_complete": true,
+    "submit_redirect_url": "https://crm.cashfaster.com.au/leadmarket/import_client/?token={token}",
+    "pages": {
+        "splash": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='font-size: 1.6rem; font-weight: bold; margin-bottom:2rem;'>Welcome to CashFaster!</h1><p>You have been sent to us because according to your application, we may be able to help you get the loan you need.</p><p>First, let's check if we have all the information that we need from you.</p><div style='max-width: 90%;margin: 3rem auto 1.5rem;font-size: 0.9rem;background: rgba(76, 190, 255, 0.25) ;padding: 1.5rem 1.5rem 1rem;'><p><b>About us</b></p><p>Here at CashFaster, we're changing the way Australians access cash. Born of the belief that Aussies shouldn't have to wait to get paid for an honest day's work, we created a better way to get your money when you need it. Life moves pretty fast, and so do we.</p></div>"
+                },
+                {
+                    "type": "submit",
+                    "label": "Check my info"
+                }
+            ]
+        },
+        "details": {
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h2>Extra details</h2><p>We have almost everything we need, but we are missing a few key details.</p>"
+                },
+                {
+                    "type": "dynamic_form"
+                },
+                {
+                    "type": "terms_and_conditions",
+                    "key": "Accepted_Terms_And_Conditions",
+                    "content": "I agree to CashFaster's <a href=\"https://cashfaster.com.au/terms-conditions/?token={token}\" target=\"_blank\" tabIndex=\"-1\">Terms and Conditions.</a>"
+                },
+                {
+                    "type": "submit",
+                    "label": "Continue"
+                }
+            ]
+        },
+        "exit": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='font-size: 1.6rem; font-weight: bold; margin-bottom:2rem;'>We have everything we need!</h1><p><strong>Once you submit your application, we will review it and get back to you shortly. Keep an eye on your inbox/texts. </strong><br><em>(Make sure you check your spam or junk folder if you haven't heard from us within 10 minutes).</em></p>"
+                },
+                {
+                    "type": "submit",
+                    "label": "Submit my application"
+                }
+            ]
+        }
+    }
+}

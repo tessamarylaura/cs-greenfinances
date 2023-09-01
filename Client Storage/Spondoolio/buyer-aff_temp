@@ -1,0 +1,36 @@
+{
+    "version": 2,
+    "get_refresh_authority": false,
+    "submit_redirect_url": " https://www.spondooli.com.au/apply-now/?token={token}",
+    "auto_submit_on_complete": false,
+    "pages": {
+        "splash": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='font-size: 1.6rem; font-weight: bold; margin-bottom:2rem;'>Welcome to Spondooli!</h1><p>You have been sent to us because according to your application, we may be able to help you get the loan you need.</p><p>Before we can proceed with assessing your eligibility, we need you to fill out our form. We have already pre-filled it with some of your information, so it shouldn't take you more than a minute.</p><div style='max-width: 90%;margin: 3rem auto 1.5rem;font-size: 0.9rem;background: rgba(87,217,217,0.15);padding: 1.5rem 1.5rem 1rem;'><p><b>About us</b></p><p>Here at Spondooli, we help Australians when they are in a tight spot financially. We understand how stressful it can be to borrow money in an emergency, so we have made the borrowing process as easy as possible with no hidden fees. Whether you need a cash advance, access to a payday loan, a cash loan or emergency money, Spondooli can provide you with a solution.</p></div>"
+                },
+                {
+                    "type": "submit",
+                    "label": "Next"
+                }
+            ]
+        },
+        "details": {
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>Step 2 of 2: Additional Details</h1><hr style='margin: 1rem 0 3rem;border-width:3px'><p>We have almost everything we need! We only require a few extra details from you.</p>"
+                },
+                {
+                    "type": "dynamic_form"
+                },
+                {
+                    "type": "submit",
+                    "label": "Submit"
+                }
+            ]
+        }
+    }
+}

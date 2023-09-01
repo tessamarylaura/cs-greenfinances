@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "get_refresh_authority": false,
+    "submit_redirect_url": " https://www.spondooli.com.au/apply-now/?token={token}",
+    "auto_submit_on_complete": false,
+    "elements": [
+        {
+            "type": "html",
+             "content": "<link rel=\"stylesheet\" id=\"fl-builder-google-fonts-6fd2b081dbaa3bb8686313de37b24bdf-css\" href=\"https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700&amp;ver=4.9.4\" type=\"text/css\" media=\"all\"><p style=\"font-family: 'Open Sans', sans-serif; font-weight: 300; font-size:15px;\"><h1><br>Welcome to Spondooli <br></h1><br>Please click on the button below to continue with your application. <br>Some of the data you have entered has already been transferred to this application but there may be a few extra bits of information we will need. <br><br> Please click on continue below to complete application<br>Once digitally signed, your money will typically be available before 7pm Today or the next business day depending on the time you sign the contract.<br><br><p/><style> .container-fluid {    width: 100%;    max-width: 1100px;    margin: auto;    color:#666666;    line-height:21.75px;}</style>"
+             },{
+                 "type": "dynamic_form"
+             },{
+                 "type": "submit"
+             }
+         ]
+     }

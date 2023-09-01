@@ -1,0 +1,62 @@
+{
+    "version": 2,
+    "submit_redirect_url": "https://www.cashsmart.net/applying/upload-id/",
+    "pages": {
+        "splash": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='font-size: 1.6rem; font-weight: bold; margin-bottom:2rem;'>Welcome to Cash Smart!</h1><p>You have been sent to us because according to your application, we may be able to help you get the loan you need.</p><p>We already have some of your details, but we need a little more info before we can help you.</p><div style='max-width: 90%;margin: 3rem auto 1.5rem;font-size: 0.9rem;background: rgba(0,162,229,0.1);padding: 1.5rem 1.5rem 1rem;'><p><b>About us</b></p><p>We opened as a micro lender in 2004 and has slowly grown over the years - our first staff members are still with us today. We pride ourselves on offering a friendly and professional service and many customers return to borrow again; word of mouth is our best advertisement.</p></div>"
+                },
+                {
+                    "type": "submit",
+                    "label": "Let's go!"
+                }
+            ]
+        },
+        "borrower_warning": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h2>Borrower Warning</h2>{borrower_warning}"
+                },
+                {
+                    "type": "submit",
+                    "label": "OK"
+                }
+            ]
+        },
+        "details": {
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h2>One more thing...</h2><p>Before we can proceed, we need you to accept our Terms and Conditions.</p>"
+                },
+                {
+                    "type": "terms_and_conditions",
+                    "key": "Accepted_Terms_And_Conditions",
+                    "content": "I have read and agree to the terms set out in Cash Smart's <a href=\"https://www.cashsmart.net/disclosure-documents/\" target=\"_blank\" tabIndex=\"-1\">disclosure documents</a>."
+                },
+                {
+                    "type": "submit",
+                    "label": "Submit"
+                }
+            ]
+        },
+        "exit": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h2>Brilliant! We will be in touch with you shortly.</h2><p><i>(Please note, we operate inside of the hours 9am - 5pm, Monday to Friday)</i></p><p>In the meantime, we encourage you to upload your ID to our system to speed up the application process.</p>"
+                },
+                {
+                    "type": "submit",
+                    "label": "Upload my ID"
+                }
+            ]
+        }
+    }
+}
