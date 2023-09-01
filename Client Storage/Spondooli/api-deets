@@ -1,0 +1,17 @@
+Prod
+API Token: D67E3366-A360-4550-BB71-364909263B18
+API Key: A3864285-0481-4373-9060-B169C62178DF
+Affiliate ID: 6X759LPW
+Smart Campaign ID: 113
+Customer is directed to (iframe location): https://www.spondooli.com.au/mlm-customer-landing-form/
+iframe redirects to: https://www.spondooli.com.au/apply-now/?token={token}
+
+---
+
+Dev
+API Token: 4A67E948-1847-409C-B344-61C5C9BAC558
+API Key: D9601889-945B-4A03-9377-2D2BE0606C23
+Affiliate ID: RSE9836P
+Smart Campaign ID: 113
+Customer is directed to (iframe location): https://dev001.spondooli.com.au:8443/mlm-customer-landing-form/
+iframe redirects to: https://dev001.spondooli.com.au/apply-now/?token={token}

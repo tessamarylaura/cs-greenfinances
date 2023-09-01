@@ -1,0 +1,70 @@
+{"version": 2,
+    "pages": {
+        "splash": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<p style= 'font-family:Arial; color:#0b2828;'><b>This is how we'll help you in 3 easy steps.</b></p><ol><li style= 'font-family:Arial; color:#0b2828;'>We'll attempt to align you with a more suitable partner</li><li style= 'font-family:Arial; color:#0b2828;'>If needed, we'll collect any missing information</li><li style= 'font-family:Arial; color:#0b2828;'>We'll automatically connect you and your information directly to the partner - <b>Easy right!</b></li></ol><style>.btn-msg{color:#ffffff !important;background-color: #f8820c;border-color: #FFFFFF;border-radius: 30px; padding: 12px 24px;}.btn-msg:hover {background-color: #f8820c;border-color: #FFFFFF;}</style>"
+                },
+                {
+                    "type": "next_button",
+                    "text": "Next"
+                }
+            ]
+        },
+        "details": {
+      "auto_submit": false,
+      "before_elements": [
+        {
+          "type": "html",
+          "content": "<p>It looks like we are missing some information. Please complete the questions below.</p><style>.btn-primary{color:#ffffff !important;background-color: #f8820c;border-color: #FFFFFF;border-radius: 30px; padding: 12px 24px;}.btn-primary:hover {background-color: #f8820c;border-color: #FFFFFF;}</style>"
+        },
+        {
+          "type": "next_button",
+          "content": "Next"
+        }
+      ]
+    },
+        "credit_sense": {
+      "before_elements": [
+        {
+          "type": "html",
+          "content": "<b>Last step, this will be really fast!</b><p style='padding: 5px'>We need to retrieve 90 days of your bank transaction history. We do this digitally with the highest level of security using <a href='https://www.creditsense.com.au/consumers/' target='_blank'>Credit Sense</a>.</p><img style='padding-right: 5px' src='https://api.iconify.design/mdi/playlist-check.svg?width=40&height=40'> Simply sign in and follow the prompts<br><img style='padding-right: 5px' src='https://api.iconify.design/mdi/clock-fast.svg?width=40&height=40'> Supporting information is sent instantly to the suitable partner<br><img style='padding-right: 5px' src='https://api.iconify.design/mdi/shield-key-outline.svg?width=40&height=40'> Fully encrypted</p><style>#cs_iframe_1 iframe{width:100%;}.btn-msg{color:#ffffff !important;background-color: #f8820c;border-color: #FFFFFF;border-radius: 30px; padding: 12px 24px;}.btn-msg:hover {background-color: #f8820c;border-color: #FFFFFF;}</style>"
+        }
+      ]
+    },
+     "status": {
+      "pending_after_elements": [
+        {
+          "type": "html",
+          "content": "<center><p>Great, we've got everything we need. Please wait while we try to connect you with another partner.</p><p>This may take a few minutes so please don't close the window or refresh the browser.</p></center>"
+        }
+      ],
+      "already_applied_elements": [
+        {
+          "type": "html",
+          "content": "<div class='msg-box'><div class='msg-container'><div class='msg-icon-area'><div class='msg-icon msg-icon-warning'><i class='fa fa-meh-o fa-lg' aria-hidden='true'></i></div></div><div class='msg-body'><h2 class='msg-title'>You've already applied....</h2><div><p>It looks like you've submitted an application with us recently.</p><p>We can't accept another application from you right now, however, we'd love to hear from you again at a later time.</p></div></div></div>"
+        }
+      ],
+      "sold_engaged_elements": [
+        {
+          "type": "html",
+          "content": "<div class='msg-box'><div class='msg-body' style ='border-left: 0px solid #bcee00'><h2 class='msg-title' style ='padding: 5px; font-family:Arial; color:#0d2828; font-weight:500;'>Great News!</h2><p>We've found someone who may be able to help you out.</p><p>Click on the button below to go to their site to complete their application.</p><p>Come back and visit us again. &#128512;</p><a href='{buyer_link}' class='btn btn-primary btn-lg'>Next</a></div></div></div>"
+        }
+      ],
+      "sold_desengaged_elements": [
+        {
+          "type": "html",
+          "content": "<div class='msg-box'><div class='msg-body' style ='border-left: 3px solid #bcee00'><h2 class='msg-title' style ='padding: 5px; font-family:Arial; color:#0d2828; font-weight:500;'>Great News!</h2><p>We've found someone who may be able to help you out.</p><p>You will hear from them shortly to begin you application with them.</p><p>We wish you all the best.</p></div></div></div>"
+        }
+      ],
+      "unsold_elements": [
+        {
+          "type": "html",
+          "content": "<div class='msg-box'><div class='msg-body' style ='border-left: 0px solid #bcee00'><h2 class='msg-title' style ='padding: 5px; font-family:Arial; color:#0d2828; font-weight:500;'>We couldn't locate a partner for you today, as a result your application cannot progress.</h2><p>Thank you for taking the time to apply with us.</p><p>We hope to see you soon. &#128512</p></div></div></div>"
+        }
+      ]
+            }
+        }
+        }
