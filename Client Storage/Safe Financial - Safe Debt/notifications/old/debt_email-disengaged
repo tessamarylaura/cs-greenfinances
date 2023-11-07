@@ -1,0 +1,4 @@
+<h3>Hi [firstName],</h3>
+<p>Thanks for your patience.</p>
+<p>Good news - [lenderBuyer] would love to assess your application! Click <a href="[buyerInfo.Response.Referral_Url]">here</a> to finalise the process with [lenderBuyer].</p>
+<p>Best regards</p>

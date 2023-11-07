@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "pages": {
+        "details": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='font-size: 1.6rem;font-weight: bold;margin-bottom:1.5rem;text-align: center;'>Welcome!</h1><p style='text-align: center;'>You've been directed to us to help you secure the most competitive interest rate and repayment available in the market</p><div style='max-width: 90%;margin: 2.5rem auto 0.75rem;font-size: 0.9rem;background: rgba(82,174,249,0.18);padding: 1.25rem 1.5rem 0.75rem;'><p><b>A little bit about us</b></p><p>Lyft Money are an Australian owned and operated company with over 20 years of industry experience in vehicle finance. Our passion is helping everyday Australians secure the most competitive rates and repayments the market has to offer.</p></div><div style='max-width: 90%;margin: auto;font-size: 0.9rem;padding: 1rem 1.5rem 0.75rem;'><p><b>Why choose Lyft Money</b></p><ul><li>150+ 5 Star Google Reviews</li><li>Interest Rates from 5.89%</li><li>Access to 50+ lending partners</li><li>Risk-Free pre-approval</li></ul></div>"
+                },
+                {
+                    "type": "submit",
+                    "label": "Next"
+                }
+            ]
+        },
+        "exit": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='font-size: 1.6rem;font-weight: bold;margin-bottom:2rem;text-align: center;margin-top: 3rem;'>Let's get started!</h1><p style='text-align: center'>One of our friendly team members will give you a call shortly.</p><div style='max-width: 90%;margin: 3rem auto 1.5rem;font-size: 0.9rem;background: rgba(82,174,249,0.18);padding: 1.5rem 1.5rem 1rem;'><p><b>Our process:</b></p><ol><li>First we will <b>finalise</b> a few details</li><li>Then we'll request a few <b>supporting documents</b> such as a drivers license and payslips</li><li>We get to work sourcing the <b>best rate and repayment</b> available for you in the market!</li></ol></div><div style='max-width: 90%;margin: auto;font-size: 0.9rem;padding: 1.5rem 1.5rem 1rem;'><p><b>Just so you know!</b></p><p>We always protect your private information and your credit score <b>will not</b> be affected once you proceed</p></div>"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "submit_redirect_url": "https://lyftmoney.com.au/success/?token={token}",
+  "auto_submit_on_complete": false,
+ "elements": [
+ {
+                    "type": "html",
+                    "content": "<h2>Welcome to Lyft Money!</h2><br><p>We’ve received your application details and are ready to proceed.<br>Some of the information you have entered has already been transferred to this application but there may be a few other pieces of information we will need.<br>Thank you for your consideration.</p>"
+                },{
+	"type": "dynamic_form"
+        },{
+	"type":  "submit",
+	"text": "Continue"
+        }
+    ]
+ }
