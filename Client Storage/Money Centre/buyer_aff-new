@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "auto_submit_on_complete": true,
+    "pages": {
+        "splash": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='font-size: 1.6rem; font-weight: bold; margin: 2rem 0 2rem;'>Welcome to the Money Centre!</h1><p>You have been sent to us because according to your application, we may be able to help you get the loan you need.</p><p>We already have your details, so <b>we will be sending you an email with the next steps very soon.</b></p><p>If you want to speed up the assessment process, you can prepare 2 recent payslips and some photo ID.</p><div style='max-width: 90%;margin: 3rem auto 1.5rem;font-size: 0.9rem;background: rgba(8,65,177,0.09);padding: 1.5rem 1.5rem 1rem;'><p><b>Haven't gotten an email?</b></br>It can sometimes take up to 10 minutes for the email to arrive. Look for an email sent by cashloans@themoneycentre.com.au, and check your junk/spam folder to make sure it didn't end up in there.</p><p><strong>Still nothing?</strong></br>If it has been longer than 10 minutes, send us an email at <a href='mailto:cashloans@themoneycentre.com.au?subject=No email received - {token}'>cashloans@themoneycentre/com.au</a> to let us know.</p></div>"
+                }
+            ]
+        }
+    }
+}

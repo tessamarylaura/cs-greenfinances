@@ -1,0 +1,51 @@
+{
+    "version": 2,
+    "pages": {
+        "splash": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='font-size: 1.6rem; font-weight: bold; margin-bottom:2rem;'>Welcome to Let's Get it Loans!</h1><p>You have been sent to us because we may be able to help you get the loan you need.</p><div style='max-width: 90%;margin: 3rem auto 1.5rem;font-size: 0.9rem;background: rgba(0,0,0,0.025);padding: 1.5rem 1.5rem 1rem;'><p><b>About us</b></p><p>Here at Let's Get it Loans, our goal is to relieve the stress and pressures involved in arranging a loan. Whether it be that you're looking to get a car loan, personal loan, commercial loan or debt consolidation, we can help.</p><p>We have access to the best lenders on the market, and we pride ourselves on our fast turn around time, low rates and a hassle free experience. We help you get the best loan suitable for your needs.</p></div><style>.btn.btn-primary.btn-lg{background-color: #FB4820; border: none; text-transform: uppercase; font-weight: 600; font-family: 'Lato', Sans-serif; letter-spacing: 0.2px; padding: 0.5em 2em;}</style>"
+                },
+                {
+                    "type": "submit",
+                    "label": "Let's go!"
+                }
+            ]
+        },
+        "details": {
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>Step 1 of 1: Additional Details</h1><hr style='margin: 1rem 0 3rem;border-width:3px'><p>We have almost everything we need! We only require a few extra details from you, along with your acceptance of our Terms and Conditions.</p>"
+                },
+                {
+                    "type": "dynamic_form"
+                },
+                {
+                    "type": "html",
+                    "content": "<h4 style='border-bottom: 1px solid #0000002e; margin-bottom: 1.1rem; padding-bottom: 0.5rem;'>Terms and Conditions</h4>"
+                },
+                {
+                    "type": "terms_and_conditions",
+                    "key": "Accepted_Terms_And_Conditions",
+                    "content": "I have read and agree to the terms set out in Let's Get it Loans's <a href='www.google.com/' target=\"_blank\" tabIndex=\"-1\">Terms and Conditions</a>."
+                },
+                {
+                    "type": "submit",
+                    "label": "Submit"
+                }
+            ]
+        },
+        "exit": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h2 style='line-height: 2.2rem;'>Thank you - we have everything we need!</h2><h4>We will be in touch with you shortly.</h4><p>Please note:<ul><li>We operate inside the hours 9 am to 5 pm, Monday to Friday.</li><li>We will be contacting you via the email or phone number you have provided us. If you do not hear from us, please contact us on XXXX</ul></p>"
+                }
+            ]
+        }
+    }
+  }

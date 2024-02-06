@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "submit_redirect_url": "https://www.cashsmart.net/applying/upload-id/",
+    "submit_redirect_url": "https://www.cashsmart.net/your-details/?token=fn8DSyUMHC5wjKG0RaER",
     "pages": {
         "splash": {
             "enabled": true,
@@ -45,18 +45,8 @@
                 }
             ]
         },
-        "exit": {
-            "enabled": true,
-            "elements": [
-                {
-                    "type": "html",
-                    "content": "<h2>Brilliant! We will be in touch with you shortly.</h2><p><i>(Please note, we operate inside of the hours 9am - 5pm, Monday to Friday)</i></p><p>In the meantime, we encourage you to upload your ID to our system to speed up the application process.</p>"
-                },
-                {
-                    "type": "submit",
-                    "label": "Upload my ID"
-                }
-            ]
+        "details": {
+            "auto_submit": true
         }
     }
 }

@@ -1,0 +1,44 @@
+{
+    "version": 2,
+    "submit_redirect_url": "/demo/thankyou?token={token}",
+    "pages": {
+        "splash": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h2>Welcome to The Money Centre!</h2><p>We have received your details and would like to assess your application.</p>"
+                },
+                {
+                    "type": "submit",
+                    "submit_button_label": "Let's go!"
+                }
+            ]
+        },
+        "details": {
+            "auto_submit": false,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<p><b>As part of our process, we will need to call or email you.</b></p><p>Before we can continue, we just need to confirm that your contact details are correct.</b></p>"
+                },
+                {
+                    "type": "dynamic_form"
+                },
+                {
+                    "type": "submit",
+                    "label": "Everything is correct!"
+                }
+            ]
+        },
+        "exit": {
+            "enabled": true,
+            "elements": [
+              {
+                  "type": "html",
+                  "content": "<2>Done!</h2><p><strong>Sit tight! We will be sending you an email very soon to begin the process.</strong><br><em>(Make sure you check your spam or junk folder if you haven't received it within 10 minutes).</em></p><p>While you wait, you can prepare 2 recent payslips and some photo ID to help speed up the application process.</p>"
+              }
+            ]
+        }
+    }
+}

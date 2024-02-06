@@ -1,0 +1,84 @@
+{
+    "version": 2,
+    "pages": {
+        "splash": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<style>.form-group button{background-color: #01aece; border: none; text-transform: uppercase; padding: 0.75em 3em; font-weight: bold;} .form-group button:hover, .form-group button:focus, .form-group button:active{background-color: #ffd800; color: black;}</style><div style='width: 100%;padding: 2rem;background-color: rgb(0, 12, 63);text-align: center;margin-bottom: 4rem;'><img src='https://surecash.com.au/wp-content/uploads/2021/05/header-logo-300sm.png.webp' style='max-height: 50px;'></div>"
+                },
+                {
+                    "type": "html",
+                    "content": "<h1 style='font-size: 1.6rem; font-weight: bold; margin-bottom:2rem;'>Hi Test!</h1><p><strong>Welcome to Sure Cash Finance! We're the experts in Personal Finance.</strong></p><p>We've received your application and we look forward to assisting you. We just need few quick things from you first. </p><p><small>(This should take you less than 30 seconds to complete)</small></p>"
+                },
+                {
+                    "type": "submit",
+                    "label": "Let's go"
+                }
+            ]
+        },
+        "borrower_warning": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<style>.form-group button{background-color: #01aece; border: none; text-transform: uppercase; padding: 0.75em 3em; font-weight: bold;} .form-group button:hover, .form-group button:focus, .form-group button:active{background-color: #ffd800; color: black;}</style><div style='width: 100%;padding: 2rem;background-color: rgb(0, 12, 63);text-align: center;margin-bottom: 4rem;'><img src='https://surecash.com.au/wp-content/uploads/2021/05/header-logo-300sm.png.webp' style='max-height: 50px;'></div>"
+                },
+                {
+                    "type": "html",
+                    "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>Step 1 of 2: Borrower Warning</h1><hr style='margin: 1rem 0 3rem;border-width:3px'>{borrower_warning}"
+                },
+                {
+                    "type": "submit",
+                    "label": "OK"
+                }
+            ]
+        },
+        "details": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<style>.form-group button{background-color: #01aece; border: none; text-transform: uppercase; padding: 0.75em 3em; font-weight: bold;} .form-group button:hover, .form-group button:focus, .form-group button:active{background-color: #ffd800; color: black;}</style><div style='width: 100%;padding: 2rem;background-color: rgb(0, 12, 63);text-align: center;margin-bottom: 4rem;'><img src='https://surecash.com.au/wp-content/uploads/2021/05/header-logo-300sm.png.webp' style='max-height: 50px;'></div>"
+                },
+                {
+                    "type": "html",
+                    "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>Step 2 of 2: Terms and Conditions</h1><hr style='margin: 1rem 0 2rem;border-width:3px'><p style='margin: 0 0 3rem;'>Please review and accept our Terms and Conditions before proceeding.</p>"
+                },
+                {
+                    "type": "terms_and_conditions",
+                    "key": "Accepted_Communications",
+                    "content": "I am aware that all communication with Sure Cash Finance will be electronic. This includes, but is not limited to, email and SMS correspondence. No printed or hard copies of documents will be supplied by Sure Cash Finance."
+                },
+                {
+                    "type": "terms_and_conditions",
+                    "key": "Accepted_All_Info_Is_True",
+                    "content": "The information provided in this application is true and correct to the best of my knowledge."
+                },
+                {
+                    "type": "terms_and_conditions",
+                    "key": "Accepted_Privacy_Policy",
+                    "content": "I give permission for Sure Cash Finance to electronically share my personal details with contracted third party companies to perform official identification, credit and account history checks as required by the National Consumer Credit Protection Act 2009. Please click here to view our <a href='https://surecash.com.au/wp-content/uploads/2023/06/Privacy-Policy-ver-2-June-2023.pdf'>Privacy Policy</a>."
+                },
+                {
+                    "type": "submit",
+                    "label": "Submit"
+                }
+            ]
+        },
+        "exit": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<style>.form-group button{background-color: #01aece; border: none; text-transform: uppercase; padding: 0.75em 3em; font-weight: bold;} .form-group button:hover, .form-group button:focus, .form-group button:active{background-color: #ffd800; color: black;}</style><div style='width: 100%;padding: 2rem;background-color: rgb(0, 12, 63);text-align: center;margin-bottom: 4rem;'><img src='https://surecash.com.au/wp-content/uploads/2021/05/header-logo-300sm.png.webp' style='max-height: 50px;'></div>"
+                },
+                {
+                    "type": "html",
+                    "content": "<h2 style='line-height: 2.2rem;'>Thank you - that is everything we need!</h2><p>We specialise in fast approvals and are processing this now, so we will be in contact with you shortly.</p><p>If you need to contact us, please call <a href='tel:+612 4325 0444'>(02) 4325 0444</a> or email us at <a href='mailto:gosford@surecash.com.au'>gosford@surecash.com.au</a></p>"
+                }
+            ]
+        }
+    }
+}

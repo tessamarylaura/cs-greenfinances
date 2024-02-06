@@ -1,0 +1,32 @@
+{
+    "version": 2,
+    "submit_redirect_url": "https://www.cashsmart.net/your-details/?token={token}",
+    "pages": {
+        "splash": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='font-size: 1.6rem; font-weight: bold; margin-bottom:2rem;'>Welcome to Cash Smart!</h1><p>Great news! We have recieved your loan application and are ready to process it.</p><p>We already pre-filled our application form with your information - we just need you to fill in the gaps.</p><style>button[type='submit']{background: #f19d00; border:none; font-size: 1rem; padding: 1em 2.5em; font-weight: 500; text-transform: uppercase;}button[type='submit']:hover{background:#a45e00;}</style>"
+                },
+                {
+                    "type": "submit",
+                    "label": "Complete my application"
+                }
+            ]
+        },
+        "details": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<style>button[type='submit']{background: #f19d00; border:none; font-size: 1rem; padding: 1em 2.5em; font-weight: 500; text-transform: uppercase;}button[type='submit']:hover{background:#a45e00;}</style>{borrower_warning}"
+                },
+                {
+                    "type": "submit",
+                    "label": "Continue"
+                }
+            ]
+        }
+    }
+}
