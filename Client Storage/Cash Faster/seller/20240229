@@ -1,0 +1,106 @@
+{"version": 2,
+    "pages": {
+        "splash": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<style>.btn{color:#ffffff !important;background-color: #003788; padding: 0.6rem 1.75rem; font-size: 1rem;border: none; margin-top: 1.5rem; font-weight:600; border-radius: 0.5rem;}.btn:hover {background-color: #F7E04F; color: black !important;}body{background: unset;}</style>"
+                },
+                {
+                    "type": "html",
+                    "content": "<p><b>Good news! We have completed the initial assessment of your application.</b></p><p>We can't offer you a loan directly, so the next step in the process is to see if any of our lending partners will be able to assist you with your loan.</p><p>This will only take a few minutes to complete.</p>"
+                },
+                {
+                    "type": "next_button",
+                    "text": "Continue"
+                }
+            ]
+        },
+        "details": {
+            "auto_submit": true,
+            "before_elements": [
+                {
+                    "type": "html",
+                    "content": "<style>.btn{color:#ffffff !important;background-color: #003788; padding: 0.6rem 1.75rem; font-size: 1rem;border: none; margin-top: 1.5rem; font-weight:600; border-radius: 0.5rem;}.btn:hover {background-color: #F7E04F; color: black !important;}body{background: unset;}</style>"
+                },
+                {
+                    "type": "html",
+                    "content": "<style>.details-section h4{font-weight: bold; border-bottom: 2px solid black; font-size: 1rem; margin-top: 3rem;} label, fieldset legend{font-size: 0.9rem; font-weight: 600; margin-top: 1rem;} .form-group:first-child > .form-group .list-group-item:before{content: 'Your consent'; display: block; font-weight: bold; border-bottom: 2px solid black; font-size: 1rem; margin-top: 3rem; margin-bottom: 1.1rem; padding-bottom: 0.5rem;} .list-group-item{border: none;} .list-group-item .media{border: 1px solid #ddd;} .list-group-item label{font-weight: 400; margin-top: 0;}</style>"
+                },
+                {
+                    "type": "html",
+                    "content": "<p><b>First - we just need a few more details</b></p><p>Our parnter network requires some more information in order to be able to match you with the best lender for your application. We have already pre-filled it with the information you have already given us.</p>"
+                },
+                {
+                    "type": "next_button",
+                    "content": "Continue"
+                }
+            ]
+        },
+        "credit_sense": {
+            "before_elements": [
+                {
+                    "type": "html",
+                    "content": "<style>body{background: unset;}</style>"
+                },
+                {
+                    "type": "html",
+                    "content": "<p><b>Last step - Your bank transactions</b></p><p>Our network of lenders need your recent transaction history to assess your application. We collect this to help match you to the right lender and speed up your application.</p><p>We use <a href='https://www.creditsense.com.au/consumers/' target='_blank'>Credit Sense</a> to securely gather your transaction history. It's safe, easy and quick.</p>"
+                }
+            ]
+        },
+        "status": {
+            "pending_after_elements": [
+                {
+                    "type": "html",
+                    "content": "<style>body{background: unset;}</style>"
+                },
+                {
+                    "type": "html",
+                    "content": "<center><p style='font-weight:bold; margin-top: 1.5rem'>We've got everything we need!</p><p>Please wait while we try to connect you with another partner.<br><span style='font-size:0.7rem;'>This may take a few minutes so please don't close the window or refresh the browser.</span></p></center>"
+                }
+            ],
+            "already_applied_elements": [
+                {
+                    "type": "html",
+                    "content": "<style>body{background: unset;}</style>"
+                },
+                {
+                    "type": "html",
+                    "content": "<p><b>You've already applied....</b></p><p>It looks like you've recently submitted an application to our partner network.</p><p>We can't accept another application from you right now, however, we'd love to hear from you again soon.</p>"
+                }
+            ],
+            "sold_engaged_elements": [
+                {
+                    "type": "html",
+                    "content": "<style>body{background: unset;}</style>"
+                },
+                {
+                    "type": "html",
+                    "content": "<p><b>Great News!</b></p><p>We've found someone who may be able to help you out. Click on the button below to go to their site to complete their application.</p><p>Come back and visit us again!</p><a href='{buyer_link}' class='btn btn-lg btn-primary' style='text-decoration: none; color:#ffffff !important;background-color: #003788; padding: 0.6rem 1.75rem; font-size: 1rem;border: none; margin-top: 1.5rem; font-weight:600; border-radius: 0.5rem;'>Take me there</a>"
+                }
+            ],
+            "sold_desengaged_elements": [
+                {
+                    "type": "html",
+                    "content": "<style>body{background: unset;}</style>"
+                },
+                {
+                    "type": "html",
+                    "content": "<h2 style='font-size: 1.4rem; font-weight: bold;'>Great News!</h2><p>We've found someone who may be able to help you out.</p><p>Keep an eye out - you will soon get a <b>call, text or email</b> from them with your next instructions.</p>"
+                }
+            ],
+            "unsold_elements": [
+                {
+                    "type": "html",
+                    "content": "<style>body{background: unset;}</style>"
+                },
+                {
+                    "type": "html",
+                    "content": "<h2 style='font-size: 1.4rem; font-weight: bold;'>We couldn't find a match.</h2><p>Unfortunately, we couldn't locate a partner for you today, and as a result your application cannot progress any further with us.<p>Thank you for taking the time to apply with us. Please keep us in mind the next time you are applying for a loan.</p>"
+                }
+            ]
+        }
+    }
+}

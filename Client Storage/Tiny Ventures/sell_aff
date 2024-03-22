@@ -1,0 +1,67 @@
+{"version": 2,
+    "pages": {
+        "details": {
+            "auto_submit": true,
+            "before_elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>Step 1 of 2: Provide your details</h1><hr style='margin: 1rem 0 3rem;border-width:3px'><p style='margin-bottom: 3rem;'>To begin, please fill out details about yourself and the loan you are applying for.</p>"
+                },
+                {
+                    "type": "html",
+                    "content": "<style>.details-section{background-color: rgba(211,211,211, 0.1); padding: 2rem;}.details-section h4{font-weight: bold; font-size: 1.2em; border-width: 2px; border-color: black; padding-bottom: 0.8em; margin-bottom: 1.5em;}.details-section label, .details-section legend{font-size:0.9em;}.details-section .form-group{margin-bottom: 1.5rem;}</style>"
+                },
+                {
+                    "type": "next_button",
+                    "content": "Continue"
+                }
+            ]
+        },
+        "credit_sense": {
+            "before_elements": [
+                {
+                    "type": "html",
+                    "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>Step 2 of 2: Provide your bank transaction history</h1><hr style='margin: 1rem 0 3rem;border-width:3px'><p>To finalise your application, we need to retrieve 90 days of your bank transaction history. We do this digitally with the highest level of security using <a href='https://www.creditsense.com.au/consumers/' target='_blank'>Credit Sense</a>.</p><p style='margin-bottom: 4rem;'>To complete this step, select your bank and enter your login details, and let Credit Sense takes care of the rest using their fully encrypted process.</p>"
+                }
+            ]
+        },
+        "status": {
+            "pending_before_elements": [
+                {
+                "type": "html",
+                "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>Finding you a lender</h1><hr style='margin: 1rem 0 2.5rem;border-width:3px'>"
+                }
+            ],
+            "pending_after_elements": [
+                {
+                "type": "html",
+                "content": "<center><p style='font-weight:bold; margin-top: 1.5rem'>We've got everything we need!</p><p>Please wait while we try to connect you with a suitable lender.<br><span style='font-size:0.7rem;'>This may take a few minutes so please don't close the window or refresh the browser.</span></p></center>"
+                }
+            ],
+            "already_applied_elements": [
+                {
+                "type": "html",
+                "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>You've already applied....</h1><hr style='margin: 1rem 0 3rem;border-width:3px'><p>It looks like you've recently submitted an application to our partner network.</p><p>Unfortunately, we can't accept another application from you right now, however, we'd love to hear from you again soon.</p>"
+                }
+            ],
+            "sold_engaged_elements": [
+                {
+                "type": "html",
+                "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>Great News!</h1><hr style='margin: 1rem 0 3rem;border-width:3px'><p>We've found someone who may be able to help you out. Click on the button to go to their site and complete your application.</p><p>Come back and visit us again!</p><a href='{buyer_link}' class='btn btn-lg btn-primary' style='text-decoration: none; background-color: #f19d00; padding: 1rem 2.5rem; font-size: 1rem; border: none; text-transform:uppercase; font-weight:bold; letter-spacing:0.025em; margin: 3rem auto 0; display: block; max-width: 15rem;'>Take me there</a>"
+                }
+            ],
+            "sold_desengaged_elements": [
+                {
+                "type": "html",
+                "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>Great News!</h1><hr style='margin: 1rem 0 3rem;border-width:3px'><p>We've found someone who may be able to help you out.</p><p>Keep an eye out - they will be contacting you shortly with your next instructions.</p>"
+                }
+            ],
+            "unsold_elements": [
+                {
+                "type": "html",
+                "content": "<h1 style='text-align: center;font-size: 1.2em;font-weight: bold;'>We could't find a match...</h1><hr style='margin: 1rem 0 3rem;border-width:3px'><p>We're sorry, but we couldn't locate a lender for you today.</p><p>Thank you for taking the time to apply with us. Please keep us in mind the next time you are applying for a loan.</p>"
+                }
+            ]
+        }
+    }
+}

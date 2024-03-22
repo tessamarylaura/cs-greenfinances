@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "auto_submit_on_complete": false,
+  "pages": {
+    "splash": {
+      "enabled": false
+    },
+    "details": {
+      "enabled": true,
+      "elements": [
+        {
+          "type": "html",
+          "content": "<p>We've received your application details. Please complete the additional question below to progress your application.<br><br>Thank you again for considering us and we'll do our best to assist you.</p>"
+        },
+        {
+          "type": "dynamic_form"
+        },
+        {
+          "type": "terms_and_conditions",
+          "key": "Accepted_Terms_And_Conditions",
+          "content": "<p>I agree to Quick and Easy Finance's Terms and Conditions and <a href=\"https://www.qef.com.au/privacy.php\" target=\"_blank\" tabIndex=\"-1\">Privacy Policy</a></p>"
+        },
+        {
+          "type": "submit",
+          "label": "Submit"
+        }
+      ]
+    },
+    "refresh_authority": {
+      "enabled": false
+    },
+    "exit": {
+      "enabled": true,
+      "elements": [
+        {
+          "type": "html",
+          "content": "<h5>Thank you for choosing us.</h5><p>We have all the details we need from you. One of our consultants will contact you shortly to assist with your application, otherwise don’t hesitate to contact us on 1300 654 230.</p>"
+        }
+      ]
+    }
+  }
+}

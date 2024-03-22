@@ -1,0 +1,86 @@
+{"version": 2,
+    "pages": {
+        "splash": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<style>.btn{color:#ffffff !important;background-color: #f90; padding: 1rem 2.5rem; font-size: 1rem;border: none; margin-top: 1.5rem; text-transform:uppercase; font-weight:bold; letter-spacing:0.025em}.btn:hover {background-color: #08c;}</style>"
+                },
+                {
+                    "type": "html",
+                    "content": "<p  style='font-size: 1.5em; margin-bottom: 1.5em;'><b>Good news!</b></p><p>We have completed the initial assessment of your application and you're eligible to be referred to our network of trusted partners.</p><p>This will only take a few minutes.</p>"
+                },
+                {
+                    "type": "next_button",
+                    "text": "Find me a lender"
+                }
+            ]
+        },
+        "details": {
+            "auto_submit": true,
+            "before_elements": [
+                {
+                    "type": "html",
+                    "content": "<style>.btn{color:#ffffff !important;background-color: #f90; padding: 1rem 2.5rem; font-size: 1rem;border: none; margin-top: 1.5rem; text-transform:uppercase; font-weight:bold; letter-spacing:0.025em}.btn:hover {background-color: #08c;} h2{font-size: 1.4rem; font-weight: bold;}</style>"
+                },
+                {
+                    "type": "html",
+                    "content": "<style>.details-section{margin: 4em 0;}</style>"
+                },
+                {
+                    "type": "html",
+                    "content": "<p style='margin-bottom: 3em;'>We need to capture some more information so that we can match you with a suitable lender from our partner network.</p>"
+                },
+                {
+                    "type": "next_button",
+                    "content": "Continue"
+                }
+            ]
+        },
+        "credit_sense": {
+            "before_elements": [
+                {
+                    "type": "html",
+                    "content": "<style>.btn{color:#ffffff !important;background-color: #f90; padding: 1rem 2.5rem; font-size: 1rem;border: none; margin-top: 1.5rem; text-transform:uppercase; font-weight:bold; letter-spacing:0.025em}.btn:hover {background-color: #08c;} h2{font-size: 1.4rem; font-weight: bold;}</style>"
+                },
+                {
+                    "type": "html",
+                    "content": "<p><b>Last step - Your bank transactions</b></p><p>Our network of lenders need your recent transaction history to assess your application. We collect this to help match you to the right lender and speed up your application.</p><p>We use <a href='https://www.creditsense.com.au/consumers/' target='_blank'>Credit Sense</a> to securely gather your transaction history. It's safe, easy and quick.</p>"
+                }
+            ]
+        },
+        "status": {
+            "pending_after_elements": [
+                {
+                "type": "html",
+                "content": "<center><p style='font-weight:bold; margin-top: 1.5rem'>We've got everything we need!</p><p>Please wait while we try to connect you with another partner.<br><span style='font-size:0.7rem;'>This may take a minute or two so please don't close the window or refresh the browser.</span></p></center>"
+                }
+            ],
+            "already_applied_elements": [
+                {
+                "type": "html",
+                "content": "<h2 style='font-size: 1.4rem; font-weight: bold;'>You've already applied....</h2><p>It looks like you've recently submitted an application to our partner network.</p><p>We can't accept another application from you right now, however, we'd love to hear from you again soon.</p>"
+                }
+            ],
+            "sold_engaged_elements": [
+                {
+                "type": "html",
+                "content": "<h2 style='font-size: 1.4rem; font-weight: bold;'>Great News!</h2><p>We've found someone who may be able to help you out. Click on the button below to go to their site to complete their application.</p><p>Come back and visit us again!</p><a href='{buyer_link}'' class='btn btn-lg btn-primary' style='text-decoration: none; background-color: #f90; padding: 1rem 2.5rem; font-size: 1rem; border: none; margin-top: 1rem; text-transform:uppercase; font-weight:bold; letter-spacing:0.025em;'>Take me there</a>"
+                }
+            ],
+            "sold_desengaged_elements": [
+                {
+                "type": "html",
+                "content": "<h2 style='font-size: 1.4rem; font-weight: bold;'>Great News!</h2><p>We've found someone who may be able to help you out.</p><p>Keep an eye out - you will soon get a <b>call, text or email</b> from them with your next instructions.</p>"
+                }
+            ],
+            "unsold_elements": [
+                {
+                "type": "html",
+                "content": "<h2 style='font-size: 1.4rem; font-weight: bold;'>We couldn't find a match.</h2><p>Unfortunately, we couldn't locate a partner for you today, and as a result your application cannot progress any further with us.<p>Thank you for taking the time to apply with us. Please keep us in mind the next time you are applying for a loan.</p>"
+                }
+            ]
+        }
+    }
+}

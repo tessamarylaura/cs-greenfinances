@@ -1,0 +1,60 @@
+{
+    "version": 2,
+    "auto_submit_on_complete": true,
+    "pages": {
+        "splash": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<style>button.btn-primary{border: none; background: #f90; margin-bottom: 2rem;} button.btn-primary:hover, button.btn-primary:focus, button.btn-primary:active{background: #08c;}</style>"
+                },
+                {
+                    "type": "html",
+                    "content": "<h1 style='font-size: 1.6rem; font-weight: bold; margin-bottom:2rem; margin-top: 1.5rem;'>Welcome {first_name}!</h1><p>You have been sent to us because according to your application, we may be able to help you get the loan you need.</p><p>We already have some of your details, but we need a little more info before we can help you.</p>"
+                },
+                {
+                    "type": "submit",
+                    "label": "Next"
+                },
+                {
+                    "type": "html",
+                    "content": "<div style='max-width: 90%;margin: 2rem auto 4rem;font-size: 0.9rem;background: rgba(157,183,206,0.1);padding: 1.5rem 1.5rem 1rem;'><p><b>About us</b></p><p>Here at Quick and Easy Finance, we pride ourselves on living up to our name. We specialise in secured and unsecured short term personal loans over 3 to 36 months, and unlike most other personal loan companies, we DO NOT CHARGE ANY FEES OR PENALTIES if you choose to settle your loan early. This means that you are free to pay out your loan whenever you want. It's your cash on demand, the Quick and Easy way™</p></div>"
+                }
+            ]
+        },
+        "details": {
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<style>button.btn-primary{border: none; background: #f90; margin-bottom: 2rem; margin-top: 1rem;} button.btn-primary:hover, button.btn-primary:focus, button.btn-primary:active{background: #08c;}</style>"
+                },
+                {
+                    "type": "dynamic_form"
+                },
+                {
+                    "type": "html",
+                    "content": "<h4 style='border-bottom: 1px solid #0000002e; margin-bottom: 1.1rem; padding-bottom: 0.5rem; margin-top: 4rem;'>Terms and Conditions</h4>"
+                },
+                {
+                    "type": "terms_and_conditions",
+                    "key": "Accepted_Terms_And_Conditions",
+                    "content": "I agree to Quick and Easy Finance's <a href=\"https://www.qef.com.au/privacy.php\" target=\"_blank\" tabIndex=\"-1\">Privacy Policy</a>."
+                },
+                {
+                    "type": "submit",
+                    "label": "Submit"
+                }
+            ]
+        },
+        "exit": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<div style='max-width: 600px; margin: 2rem 0 4rem;'><h3 style='line-height: 2.2rem; font-weight: bold; margin-bottom: 1.5rem;'>All done! We have everything we need.</h3><p>Thank you for your application. One of our consultants will contact you shortly to assist with your application, or feel free to contact us now on <a href='tel:1300 654 230'>1300 654 230</a>.</p></div>"
+                }
+            ]
+        }
+    }
+}

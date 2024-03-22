@@ -1,0 +1,13 @@
+{"version": 2,
+    "pages": {
+        "splash": {
+            "enabled": true,
+            "elements": [
+                {
+                    "type": "html",
+                    "content": "<p><b>Unfortunately, we aren't able to provide you with a loan today.</b></p><p>Thank you for taking the time to complete an application with us. We hope you keep us in mind the next time you need a loan.</p></style>"
+                }
+            ]
+        }
+    }
+}
